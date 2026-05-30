@@ -17,9 +17,12 @@
     }
     html { scroll-behavior: smooth; }
     body { font-family: 'Hanken Grotesk', -apple-system, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.75; -webkit-font-smoothing: antialiased; }
-    .g-nav { display: flex; align-items: center; padding: 14px 20px; max-width: 780px; margin: 0 auto; }
+    .g-nav { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; max-width: 780px; margin: 0 auto; }
     .g-nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; font-size: 16px; font-weight: 600; color: var(--ink); }
     .g-nav-icon { width: 28px; height: 28px; background: var(--ink); border-radius: 7px; display: flex; align-items: center; justify-content: center; }
+    .lang-switch { display: flex; gap: 6px; font-size: 13px; }
+    .lang-switch a { color: var(--ink3); text-decoration: none; padding: 4px 8px; border-radius: 6px; }
+    .lang-switch a.active { color: var(--ink); background: var(--accent-tint); font-weight: 600; }
     .page-header { background: var(--accent-tint); border-bottom: 1px solid #C2DCFF; padding: 28px 24px 22px; }
     .page-header h1 { font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(26px, 5vw, 36px); font-weight: 400; color: var(--ink); margin-bottom: 4px; }
     .page-header p { font-size: 13px; color: var(--ink3); }
@@ -49,6 +52,10 @@
     <div class="g-nav-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="4" cy="4" r="2" fill="#49A2FE"/><circle cx="12" cy="4" r="2" fill="#49A2FE"/><circle cx="4" cy="12" r="2" fill="#49A2FE"/><circle cx="12" cy="12" r="2" fill="#49A2FE"/><line x1="4" y1="4" x2="12" y2="4" stroke="#49A2FE" stroke-width="1.5"/><line x1="4" y1="4" x2="4" y2="12" stroke="#49A2FE" stroke-width="1.5"/></svg></div>
     Gridflow
   </a>
+  <div class="lang-switch">
+    <a href="/privacy" class="active">DE</a>
+    <a href="/en/privacy">EN</a>
+  </div>
 </nav>
 
 <div class="page-header">
