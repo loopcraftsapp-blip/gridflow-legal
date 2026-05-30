@@ -1,3 +1,5 @@
-/privacy   /privacy.html   200
-/terms     /terms.html     200
-/impressum /impressum.html 200
+/datenschutz /privacy 301
+/agb         /terms   301
+/impressum   /impressum.html 200
+/privacy     /privacy.html   200
+/terms       /terms.html     200
